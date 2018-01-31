@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+* {
+	box-sizing: border-box;	
+}
+.row {
+    margin: 60px 0 60px 0;
+}
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+.row:after {
+	clear: both;	
+}
+body {
+	margin: 0;
+    background-color: #fafafa;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}
+.col-3 {
+    width: 25%;
+}
+[class*="col-"] {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* PROJECTS */
+.skills {
+    text-align: center;
+    margin: 0 70px 0 70px;
+}
+.skills h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 40px;
+    border-bottom: 2px solid #f0f0f0;
+    width: 800px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+.skills h2, .skills h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #7b7e83;
+    margin-top: 30px;
+}
+.skills p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    margin: 0;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+.picture {
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.1; 
+}
+.col-3:hover .picture {
+    opacity: 1; 
+}
+.col-3:hover p {
+    opacity: 0; 
+}
+.picture1 {
+    background: url(../images/html.png) center no-repeat;
+    background-size: cover;
+}
+.picture2 {
+    background: url(../images/css.png) center no-repeat;
+    background-size: cover;
+}
+.picture3 {
+    background: url(../images/sass.png) center no-repeat;
+    background-size: cover;
+}
+.picture4 {
+    background: url(../images/js.png) center no-repeat;
+    background-size: cover;
+}
+.picture5 {
+    background: url(../images/jquery.png) center no-repeat;
+    background-size: cover;
+}
+.picture6 {
+    background: url(../images/ajax.png) center no-repeat;
+    background-size: cover;
+}
+.picture7 {
+    background: url(../images/oop.png) center no-repeat;
+    background-size: cover;
+}
+.picture8 {
+    background: url(../images/github.png) center no-repeat;
+    background-size: cover;
+}
+.picture9 {
+    background: url(../images/flexbox.png) center no-repeat;
+    background-size: cover;
+}
+.picture10 {
+    background: url(../images/bootstrap.png) center no-repeat;
+    background-size: cover;
+}
+.picture11 {
+    background: url(../images/rwd.png) center no-repeat;
+    background-size: cover;
+}
+.picture12 {
+    background: url(../images/seo.png) center no-repeat;
+    background-size: cover;
+}
+.picture13 {
+    background: url(../images/psd.png) center no-repeat;
+    background-size: cover;
+}
+.picture14 {
+    background: url(../images/angular.png) center no-repeat;
+    background-size: cover;
+}
+.picture15 {
+    background: url(../images/php.png) center no-repeat;
+    background-size: cover;
+    width: 170px;
+}
+.picture16 {
+    background: url(../images/react.png) center no-repeat;
+    background-size: cover;
+}
+.picture17 {
+    background: url(../images/vanilla.png) center no-repeat;
+    background-size: cover;
+}
+.picture18 {
+    background: url(../images/node.png) center no-repeat;
+    background-size: cover;
+}
