@@ -62,7 +62,7 @@ body {
     position: absolute;
     margin: 0;
     opacity: 1;
-    transition: opacity .4s ease-in-out;
+    transition: opacity .7s ease-in-out;
 }
 .picture {
     height: 120px;
@@ -70,6 +70,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0.1;
     transition: opacity .7s ease-in-out;
     cursor: pointer;
 }
